@@ -309,7 +309,7 @@ fi
 
         log "Installing all required npm node_modules"
         sudo npm install --prefix "$CTF_PATH"
-        sudo npm install -g grunt
+        sudo npm install -g grunt@1.0.1
         sudo npm install -g flow-bin
 
         log "Running grunt to generate JS files"
